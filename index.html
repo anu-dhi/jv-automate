@@ -3,10 +3,206 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <meta name="theme-color" content="#111b22">
+    <meta name="description" content="JV Automotive manufactures custom CNC-turned and lathe-turned automotive components to customer drawings and requirements.">
+    <title>JV Automotive | Precision Automotive Components</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="assets/script.js" defer></script>
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="JV Automotive home">
+                <span class="brand-mark">JV</span>
+                <span class="brand-name">JV <span>Automotive</span></span>
+            </a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+                <span class="menu-toggle__icon" aria-hidden="true"></span>
+                <span class="menu-toggle__label">Menu</span>
+            </button>
+            <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+                <a class="nav-link is-active" href="index.html" aria-current="page">Home</a>
+                <a class="nav-link" href="products.html">Products</a>
+                <a class="nav-link" href="about.html">About us</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+            </nav>
+            <a class="button button--small header-cta" href="mailto:anupkumarsharma.2008@gmail.com?subject=Automotive%20parts%20enquiry">Request a quote <span aria-hidden="true">↗</span></a>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero">
+            <div class="hero__image" role="img" aria-label="A precision manufacturing workshop"></div>
+            <div class="hero__shade"></div>
+            <div class="container hero__content">
+                <p class="eyebrow eyebrow--light"><span class="eyebrow-dot"></span> CNC machining · Lathe turning · Automotive parts</p>
+                <h1>Precision parts.<br><span>Built around your needs.</span></h1>
+                <p class="hero__copy">Custom turned components for automotive applications, made to your drawing, material preference and project requirements.</p>
+                <div class="button-row">
+                    <a class="button" href="products.html">Explore our products <span aria-hidden="true">↗</span></a>
+                    <a class="text-link text-link--light" href="contact.html">Talk to our team <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="hero__caption"><span>01 / 04</span><span>Made for motion</span></div>
+            </div>
+            <div class="hero__vertical" aria-hidden="true">ENGINEERED FOR THE ROAD</div>
+        </section>
+
+        <section class="intro-strip" aria-label="Our approach">
+            <div class="container intro-strip__inner">
+                <p>One partner for your next part.</p>
+                <div class="intro-strip__items">
+                    <span>Drawing-led development</span>
+                    <span>Custom component focus</span>
+                    <span>Direct communication</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--split">
+            <div class="container split-layout">
+                <div class="split-visual">
+                    <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="Engineer reviewing a part in a manufacturing workshop" loading="lazy">
+                    <div class="visual-note"><span class="visual-note__number">01</span><span>Made to your<br>requirements</span></div>
+                </div>
+                <div class="split-copy">
+                    <p class="eyebrow">A practical manufacturing partner</p>
+                    <h2>Small details.<br><span>Big difference.</span></h2>
+                    <p class="body-copy">The right component starts with understanding the job it needs to do. JV Automotive works with customers looking for CNC-turned and lathe-turned parts for automotive applications.</p>
+                    <p class="body-copy">Bring us a drawing, a sample, or an early-stage idea. We’ll discuss the part, material preferences and requirements with you before moving forward.</p>
+                    <a class="text-link" href="about.html">Get to know JV Automotive <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--dark">
+            <div class="container">
+                <div class="section-heading section-heading--light">
+                    <div>
+                        <p class="eyebrow eyebrow--light">What we make</p>
+                        <h2>Parts with a purpose.</h2>
+                    </div>
+                    <a class="text-link text-link--light" href="products.html">View product range <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="product-grid">
+                    <a class="product-card" href="products.html#shafts">
+                        <span class="product-card__index">01</span>
+                        <span class="product-card__shape shape--shaft" aria-hidden="true"></span>
+                        <span class="product-card__title">Shafts &amp; axles</span>
+                        <span class="product-card__arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="product-card" href="products.html#bushings">
+                        <span class="product-card__index">02</span>
+                        <span class="product-card__shape shape--bushing" aria-hidden="true"></span>
+                        <span class="product-card__title">Bushings &amp; spacers</span>
+                        <span class="product-card__arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="product-card" href="products.html#pins">
+                        <span class="product-card__index">03</span>
+                        <span class="product-card__shape shape--pin" aria-hidden="true"></span>
+                        <span class="product-card__title">Pins &amp; dowels</span>
+                        <span class="product-card__arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="product-card" href="products.html#custom">
+                        <span class="product-card__index">04</span>
+                        <span class="product-card__shape shape--custom" aria-hidden="true"></span>
+                        <span class="product-card__title">Custom turned parts</span>
+                        <span class="product-card__arrow" aria-hidden="true">↗</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--pale" id="capabilities">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">From brief to component</p>
+                        <h2>A clear path to the part.</h2>
+                    </div>
+                    <p class="section-heading__note">Every project is different. Start with a conversation about your component and what it needs to do.</p>
+                </div>
+                <div class="process-grid">
+                    <article class="process-step">
+                        <span class="process-step__number">01</span>
+                        <h3>Share your requirement</h3>
+                        <p>Send a drawing, sample, material preference and expected quantity for an initial discussion.</p>
+                    </article>
+                    <article class="process-step">
+                        <span class="process-step__number">02</span>
+                        <h3>Review the details</h3>
+                        <p>Discuss geometry, application, tolerances and inspection needs so expectations are understood.</p>
+                    </article>
+                    <article class="process-step">
+                        <span class="process-step__number">03</span>
+                        <h3>Plan the approach</h3>
+                        <p>Align on a practical manufacturing route and the next steps for your component.</p>
+                    </article>
+                    <article class="process-step">
+                        <span class="process-step__number">04</span>
+                        <h3>Build the partnership</h3>
+                        <p>Keep communication open as your part requirements and production needs evolve.</p>
+                    </article>
+                </div>
+                <div class="section-link"><a class="text-link" href="about.html#approach">Learn about our approach <span aria-hidden="true">→</span></a></div>
+            </div>
+        </section>
+
+        <section class="section section--industries">
+            <div class="container industry-layout">
+                <div class="industry-intro">
+                    <p class="eyebrow eyebrow--light">Applications</p>
+                    <h2>Ready for the road ahead.</h2>
+                    <p>We welcome enquiries from teams developing parts for a wide range of mobility and automotive applications.</p>
+                    <a class="text-link text-link--light" href="contact.html">Discuss your application <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="industry-list">
+                    <div><span>01</span><h3>Passenger vehicles</h3><span class="industry-list__arrow" aria-hidden="true">↗</span></div>
+                    <div><span>02</span><h3>Two-wheelers</h3><span class="industry-list__arrow" aria-hidden="true">↗</span></div>
+                    <div><span>03</span><h3>Commercial &amp; off-highway</h3><span class="industry-list__arrow" aria-hidden="true">↗</span></div>
+                    <div><span>04</span><h3>Electric mobility</h3><span class="industry-list__arrow" aria-hidden="true">↗</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-band">
+            <div class="container cta-band__inner">
+                <div>
+                    <p class="eyebrow eyebrow--light">Have a component in mind?</p>
+                    <h2>Let’s talk about<br>what you’re building.</h2>
+                </div>
+                <a class="button button--light" href="mailto:anupkumarsharma.2008@gmail.com?subject=Automotive%20parts%20enquiry">Start an enquiry <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-main">
+            <div class="footer-brand">
+                <a class="brand brand--footer" href="index.html" aria-label="JV Automotive home">
+                    <span class="brand-mark">JV</span>
+                    <span class="brand-name">JV <span>Automotive</span></span>
+                </a>
+                <p>Custom CNC-turned and lathe-turned components for automotive applications.</p>
+            </div>
+            <div class="footer-column">
+                <h2>Explore</h2>
+                <a href="products.html">Products</a>
+                <a href="about.html">About us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-column footer-contact">
+                <h2>Get in touch</h2>
+                <a href="tel:+919015488135">+91 90154 88135</a>
+                <a href="mailto:anupkumarsharma.2008@gmail.com">anupkumarsharma.2008@gmail.com</a>
+                <p>Gali No 10, Anand Parvat,<br>New Delhi - 110066</p>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <span>© <span data-current-year>2026</span> JV Automotive</span>
+            <span>Precision components. Thoughtful partnerships.</span>
+            <a href="#main">Back to top ↑</a>
+        </div>
+    </footer>
 </body>
 </html>
-
